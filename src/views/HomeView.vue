@@ -2,20 +2,21 @@
   <template-view>
     <!-- image -->
     <div class="carousel">
-      <el-carousel indicator-position="outside" height="84vh">
-        <el-carousel-item v-for="item in 4" :key="item">
+      <el-carousel indicator-position="outside" height="600px">
+        <el-carousel-item v-for="item in 4" :key="item" style="maxHeight:600px">
           <img
             src="https://th.bing.com/th/id/R.a102f8b94f1d07ee628cd8a82bf0fe50?rik=IJ3FApi3KjOf3Q&riu=http%3a%2f%2fyouthhostel.html.themeplayers.net%2fonepager%2fassets%2fimages%2fdemo-content%2fhostel-3.jpg&ehk=vOlfF%2fM1dvws94AkZ5HBs9joKOCUGaALbzZiOasIXXo%3d&risl=&pid=ImgRaw&r=0"
-            alt=""
+            alt="" class="w-100 img-fluid" style="height:100%; objectFit:cover"
           />
         </el-carousel-item>
       </el-carousel>
     </div>
 
     <!-- about us -->
-    <div class="container">
+   <div class="py-5">
+     <div class="container">
       <div class="row">
-        <div class="col-md-5 py-5">
+        <div class="col-md-6 py-5">
           <h2>About Us</h2>
 
           <p>
@@ -35,7 +36,7 @@
             spaces to cater to the basic need for comfort of our residents.
           </p>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-6">
           <img
             src="https://static.wixstatic.com/media/bddef3_586008cfb61f4d29909204e4b1813a53~mv2.jpg/v1/fill/w_644,h_740,al_c,q_90,enc_auto/bddef3_586008cfb61f4d29909204e4b1813a53~mv2.jpg"
             alt=""
@@ -43,12 +44,14 @@
         </div>
       </div>
     </div>
+   </div>
 
     <!-- faciities -->
-    <div class="title d-flex justify-content-center">
+    <div class="title d-flex justify-content-center align-items-center">
       <h2>Facilities</h2>
     </div>
-    <div class="container">
+    <div class="bg-light">
+       <div class="container py-5">
       <div class="facilities row">
         <div class="col-md-4 py-3">
           <i class="fa-solid fa-bed fa-2xl py-3"></i>
@@ -94,9 +97,11 @@
         </div>
       </div>
     </div>
+    </div>
 
     <!-- booking -->
-    <div class="container-fluid">
+    <div class="py-5">
+      <div class="container">
       <div class="row">
         <div class="col-md-3">
           <img
@@ -138,6 +143,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </template-view>
 </template>

@@ -1,11 +1,12 @@
 <template>
   <template-view>
-    <div class="title d-flex justify-content-center">
+    <div class="title d-flex justify-content-center align-items-center">
       <h2>Services</h2>
     </div>
 
     <!-- Rooms -->
-    <div class="container">
+  <div class="py-5">
+      <div class="container">
       <div class="row">
         <div class="col-md-7 py-5">
           <div class="container">
@@ -42,6 +43,7 @@
         </div>
       </div>
     </div>
+  </div>
 
     <!-- Meal -->
     <div class="meal container-fluid">
@@ -75,15 +77,15 @@
     </div>
 
     <!-- Facilities -->
-    <div class="title d-flex justify-content-center">
+    <div class="title d-flex justify-content-center align-items-center">
       <h2>Others</h2>
     </div>
-    <div class="other">
+    <div class="other py-5">
       <div class="container-fluid">
         <div class="row">
           <div
             class="col-md-4 p-5"
-            style="background-color: #6c757d; height: 80vh"
+            style="background-color: #6c757d;"
           >
             <i class="fa-solid fa-wifi fa-2xl py-4"></i>
             <h3>Wi-Fi</h3>
@@ -102,7 +104,7 @@
           </div>
           <div
             class="col-md-4 p-5"
-            style="background-color: #bc9979; height: 80vh"
+            style="background-color: #bc9979; "
           >
             <i class="fa-solid fa-shield-halved fa-2xl py-4"></i>
             <h3>Security</h3>
@@ -125,7 +127,7 @@
           </div>
           <div
             class="col-md-4 p-5"
-            style="background-color: rgb(195, 144, 57); height: 80vh"
+            style="background-color: rgb(195, 144, 57); "
           >
             <i class="fa-solid fa-bed fa-2xl py-4"></i>
             <h3>Linen & Bedding</h3>
@@ -146,7 +148,7 @@
         <div class="row">
           <div
             class="col-md-4 p-5"
-            style="background-color: #6c757d; height: 80vh"
+            style="background-color: #6c757d; "
           >
             <i class="fa-solid fa-tv fa-2xl py-4"></i>
             <h3>Television</h3>
@@ -165,7 +167,7 @@
           </div>
           <div
             class="col-md-4 p-5"
-            style="background-color: #bc9979; height: 80vh"
+            style="background-color: #bc9979; "
           >
             <i class="fa-solid fa-gift fa-2xl py-4"></i>
             <h3>Offers & Rewards</h3>

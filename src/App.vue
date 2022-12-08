@@ -31,6 +31,7 @@ p{
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 16px;
 }
 

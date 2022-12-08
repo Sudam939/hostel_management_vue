@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid">
-    <div class="container pt-5">
+  <div class="footer py-5">
+    <div class="container">
       <div class="row">
         <div class="col-md-4">
           <h1>Direction</h1>
@@ -61,11 +61,8 @@ export default {
 </script>
 
 <style scoped>
-.container-fluid {
+.footer{
   color: white;
-  height: 100vh;
-  width: 100%;
-  text-align: center;
   background: var(--themeColor);
 }
 a {
