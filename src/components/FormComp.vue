@@ -11,7 +11,7 @@
     </div>
     <div class="mb-3">
       <label class="form-label">Discription</label>
-      <textarea style="border-radius:12px;" cols="68" rows="5" placeholder="Message us here......"></textarea>
+      <textarea style="border-radius:12px;" class="form-control" rows="5" placeholder="Message us here......"></textarea>
     </div>
     
     <button type="submit" class="btn">Submit</button>

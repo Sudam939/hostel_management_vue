@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="">
     <div class="image">
     <h1 class="p-5">National Students</h1>
     <h5 class="m-5 px-5">We provide accommodation for students, interns and working women who are looking for accommodation in Kathmandu.</h5>

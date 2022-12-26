@@ -4,11 +4,13 @@ import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import Vuesax from 'vuesax'
+import VModal from 'vue-js-modal'
 
 import 'vuesax/dist/vuesax.css' //Vuesax styles
 Vue.use(Vuesax, {
   // options here
-})
+});
+Vue.use(VModal)
 
 Vue.use(ElementUI);
 Vue.config.productionTip = false

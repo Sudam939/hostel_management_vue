@@ -13,7 +13,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 :root{
-  --themeColor:rgb(195, 144, 57);
+  --themeColor:#b68d40;
 }
 
 h1,h2,h3,h4,h5{

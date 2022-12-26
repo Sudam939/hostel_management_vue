@@ -80,7 +80,7 @@
     <div class="title d-flex justify-content-center align-items-center">
       <h2>Others</h2>
     </div>
-    <div class="other py-5">
+    <div class="other">
       <div class="container-fluid">
         <div class="row">
           <div

@@ -223,14 +223,68 @@
       <li class="p-3">
         Please click on the link below to fill up the form and submit it to us.
       </li>
-     <button @click="$router.push({name:'applicaion_form'})" class="btn">Application Form</button>
+     <button @click="modalView()" class="btn">Application Form</button>
     </div>
+     <modal name="applicationForm">
+    <div class="py-5">
+      <form action="submit"                   >
+        <div class="container">
+          <h3>Application Form</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Write your name here"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Write your email here"
+                />
+              </div>
+            </div>
+             <div class="col-md-6">
+              <div class="mb-3">
+                <label class="form-label">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Write your name here"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Room/Bed No*</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Write your email here"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </modal>
   </div>
+  
 </template>
 
 <script>
 export default {
   name: "InfoComp",
+  
+  methods:{
+        modalView(){
+        this.$modal.show("applicationForm");
+    }
+  }
 };
 </script>
 
@@ -244,8 +298,15 @@ p {
   font-size: 14px;
 }
 
+h3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .btn{
   background: var(--themeColor);
   color: white;
 }
+
 </style>
